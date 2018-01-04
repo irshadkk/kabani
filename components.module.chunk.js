@@ -566,9 +566,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var ViewAttendanceComponent = (function () {
     function ViewAttendanceComponent(dataService) {
         this.dataService = dataService;
-        this.employeeAttendanceArr = null;
         this.currentItem = [];
-        this.searchText = '';
         this.statusArr = ["Absent", "Present", "1/2Present"];
         this.loadAttendance();
     }
